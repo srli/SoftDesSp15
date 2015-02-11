@@ -133,7 +133,7 @@ def find_all_ORFs(dna):
     p = 0
     while p < 3:
         dna_snippet = dna[p:len(dna)]
-            res.append(collapse(find_all_ORFs_oneframe(dna_snippet)))
+        res.append(collapse(find_all_ORFs_oneframe(dna_snippet)))
         p += 1
     return res
 

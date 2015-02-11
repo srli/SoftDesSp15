@@ -1,0 +1,18 @@
+Ideal threshold is around ~750
+
+We receive 2 candidate genes.
+
+The first:
+ATP-dependent DNA helicase RecG [Lachnospiraceae bacterium 3-2]
+
+^Salmonella is bacteria. This makes sense.
+
+
+The second:
+needle length control protein [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]
+antigen presentation protein SpaN [Salmonella enterica]
+Invasion protein InvJ [Salmonella enterica]
+
+^These have "salmonella" in the name. Makes sense.
+
+Detailed information is included

@@ -1,0 +1,397 @@
+BLASTP 2.2.29+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: FSNSC7FD015
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           36,706,364 sequences; 12,976,293,536 total letters
+Query= 
+Length=2896
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+ref|NP_461813.1|  needle length control protein [Salmonella en...    704   0.0  
+ref|WP_023208633.1|  antigen presentation protein SpaN [Salmon...    702   0.0  
+ref|WP_001626424.1|  Invasion protein InvJ [Salmonella enteric...    702   0.0  
+ref|YP_008307493.1|  antigen presentation protein SpaN [Salmon...    699   0.0  
+
+ALIGNMENTS
+>ref|NP_461813.1| needle length control protein [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. LT2]
+ ref|YP_005233881.1| surface presentation of antigens protein (associated with type 
+III secretion and virulence) [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. D23580]
+ ref|YP_005239001.1| needle length control protein [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. 14028S]
+ ref|YP_005182760.1| surface presentation of antigens protein (associated with type 
+III secretion and virulence) [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. SL1344]
+ ref|YP_005248637.1| needle length control protein [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. T000240]
+ ref|YP_005253381.1| needle length control protein [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. UK-1]
+ ref|YP_005243873.1| needle length control protein [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. ST4/74]
+ ref|YP_005398255.1| surface presentation of antigens protein (associated with type 
+III secretion and virulence) [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. 798]
+ ref|YP_007904014.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. U288]
+ ref|YP_008253931.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium var. 5- str. CFSAN001921]
+ ref|YP_008267098.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar 4,[5],12:i:- str. 08-1736]
+ ref|YP_008645654.1| surface presentation of antigens protein (associated with type 
+III secretion and virulence) [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. DT2]
+ ref|YP_008671348.1| surface presentation of antigens protein (associated with type 
+III secretion and virulence) [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. DT104]
+ ref|WP_000503098.1| antigen presentation protein SpaN [Salmonella enterica]
+ sp|P40613.1|SPAN_SALTY RecName: Full=Surface presentation of antigens protein SpaN; 
+AltName: Full=Invasion protein InvJ
+ emb|CAA51923.1| surface presentation of antigens [Salmonella enterica subsp. 
+enterica serovar Typhimurium]
+ gb|AAA83431.1| InvJ [Salmonella enterica subsp. enterica serovar Typhimurium]
+ gb|AAC44991.1| SpaN [Salmonella enterica subsp. enterica serovar Typhimurium]
+ gb|AAL21772.1| surface presentation of antigens [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. LT2]
+ gb|EDY24180.1| surface presentation of antigens protein SpaN [Salmonella enterica 
+subsp. enterica serovar Saintpaul str. SARA23]
+ gb|EDZ15474.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar 4,[5],12:i:- str. CVM23701]
+ emb|CBG25861.1| surface presentation of antigens protein (associated with type 
+III secretion and virulence) [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. D23580]
+ gb|ACY89905.1| needle length control protein [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. 14028S]
+ emb|CBW18969.1| surface presentation of antigens protein (associated with type 
+III secretion and virulence) [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. SL1344]
+ dbj|BAJ37884.1| needle length control protein [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. T000240]
+ gb|EFX48507.1| Surface presentation of antigens protein SpaN Invasion protein 
+InvJ [Salmonella enterica subsp. enterica serovar Typhimurium 
+str. TN061786]
+ gb|ADX18674.1| needle length control protein [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. ST4/74]
+ gb|AEF08747.1| needle length control protein [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. UK-1]
+ gb|AFD59790.1| surface presentation of antigens protein (associated with type 
+III secretion and virulence) [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. 798]
+ gb|EKS99173.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. STm1]
+ gb|EKT00125.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. STm8]
+ gb|EKT00790.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. STm2]
+ gb|EKT12758.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. STm9]
+ gb|EKT14224.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. STm3]
+ gb|EKT17297.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. STm4]
+ gb|EKT26969.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. STm6]
+ gb|EKT27483.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. STm10]
+ gb|EKT32446.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. STm11]
+ gb|EKT39262.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. STm12]
+ gb|EKT44895.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. STm5]
+ gb|ELX29331.1| needle length control protein [Salmonella enterica subsp. enterica 
+serovar 4,[5],12:i:- str. 08-1739]
+ gb|ELX30410.1| needle length control protein [Salmonella enterica subsp. enterica 
+serovar 4,[5],12:i:- str. 08-1700]
+ gb|ELX43061.1| needle length control protein [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. CDC_2009K1153]
+ gb|ELX60426.1| needle length control protein [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. LT2-4_delta.ramA::kan]
+ gb|ELX64589.1| needle length control protein [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. LT2-4]
+ gb|AGK10523.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. U288]
+ gb|AGQ66861.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium var. 5- str. CFSAN001921]
+ gb|AGQ87203.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar 4,[5],12:i:- str. 08-1736]
+ gb|EQA24826.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. STm7]
+ emb|CCW75589.1| surface presentation of antigens protein (associated with type 
+III secretion and virulence) [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. DT104]
+ emb|CDG08946.1| surface presentation of antigens protein (associated with type 
+III secretion and virulence) [Salmonella enterica subsp. enterica 
+serovar Typhimurium str. DT2]
+ gb|ERN86885.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. CDC_2009K1288]
+ gb|ERN90578.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. CDC_2009K1158]
+ gb|ERN96506.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. CDC_2009K1283]
+ gb|ERO06330.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. CDC_2009K1277]
+ gb|ERO20411.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. 34502]
+ gb|ERO26660.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. 35423]
+ gb|ERO30401.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. 36618]
+ gb|ESC10893.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Saintpaul str. 9712]
+ gb|ESE65434.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. AZ 057]
+ gb|ESE69192.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. ST4581]
+ gb|ESE70462.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Saintpaul str. SARA26]
+ gb|ESF10081.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. SARA13]
+ gb|ESF58024.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Saintpaul str. JO2008]
+ gb|ETB81133.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Give var. 15 str. CFSAN004343]
+ gb|ETC55947.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Typhimurium var. Copenhagen str. 0084]
+Length=336
+
+ Score =   704 bits (1818),  Expect = 0.0, Method: Composition-based stats.
+ Identities = 336/336 (100%), Positives = 336/336 (100%), Gaps = 0/336 (0%)
+
+Query  278  MGDVSAVSSSGNILLPQQDEVGGLSEALKKAVEKHKTEYSGDKKDRDYGDAFVMHKETAL  337
+            MGDVSAVSSSGNILLPQQDEVGGLSEALKKAVEKHKTEYSGDKKDRDYGDAFVMHKETAL
+Sbjct  1    MGDVSAVSSSGNILLPQQDEVGGLSEALKKAVEKHKTEYSGDKKDRDYGDAFVMHKETAL  60
+
+Query  338  PLLLAAWRHGAPAKSEHHNGNVSGLHHNGKSELRIAEKLLKVTAEKSVGLISAEAKVDKS  397
+            PLLLAAWRHGAPAKSEHHNGNVSGLHHNGKSELRIAEKLLKVTAEKSVGLISAEAKVDKS
+Sbjct  61   PLLLAAWRHGAPAKSEHHNGNVSGLHHNGKSELRIAEKLLKVTAEKSVGLISAEAKVDKS  120
+
+Query  398  AALLSSKNRPLESVSGKKLSADLKAVESVSEVTDNATGISDDNIKALPGDNKAIAGEGVR  457
+            AALLSSKNRPLESVSGKKLSADLKAVESVSEVTDNATGISDDNIKALPGDNKAIAGEGVR
+Sbjct  121  AALLSSKNRPLESVSGKKLSADLKAVESVSEVTDNATGISDDNIKALPGDNKAIAGEGVR  180
+
+Query  458  KEGAPLARDVAPARMAAANTGKPEDKDHKKVKDVSQLPLQPTTIADLSQLTGGDEKMPLA  517
+            KEGAPLARDVAPARMAAANTGKPEDKDHKKVKDVSQLPLQPTTIADLSQLTGGDEKMPLA
+Sbjct  181  KEGAPLARDVAPARMAAANTGKPEDKDHKKVKDVSQLPLQPTTIADLSQLTGGDEKMPLA  240
+
+Query  518  AQSKPMMTIFPTADGVKGEDSSLTYRFQRWGNDYSVNIQARQAGEFSLIPSNTQVEHRLH  577
+            AQSKPMMTIFPTADGVKGEDSSLTYRFQRWGNDYSVNIQARQAGEFSLIPSNTQVEHRLH
+Sbjct  241  AQSKPMMTIFPTADGVKGEDSSLTYRFQRWGNDYSVNIQARQAGEFSLIPSNTQVEHRLH  300
+
+Query  578  DQWQNGNPQRWHLTRDDQQNPQQQQHRQQSGEEDDA  613
+            DQWQNGNPQRWHLTRDDQQNPQQQQHRQQSGEEDDA
+Sbjct  301  DQWQNGNPQRWHLTRDDQQNPQQQQHRQQSGEEDDA  336
+
+
+>ref|WP_023208633.1| antigen presentation protein SpaN [Salmonella enterica]
+ gb|ESF69790.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Paratyphi B str. SARA42]
+Length=336
+
+ Score =   702 bits (1813),  Expect = 0.0, Method: Composition-based stats.
+ Identities = 335/336 (99%), Positives = 335/336 (99%), Gaps = 0/336 (0%)
+
+Query  278  MGDVSAVSSSGNILLPQQDEVGGLSEALKKAVEKHKTEYSGDKKDRDYGDAFVMHKETAL  337
+            MGDVSAV SSGNILLPQQDEVGGLSEALKKAVEKHKTEYSGDKKDRDYGDAFVMHKETAL
+Sbjct  1    MGDVSAVCSSGNILLPQQDEVGGLSEALKKAVEKHKTEYSGDKKDRDYGDAFVMHKETAL  60
+
+Query  338  PLLLAAWRHGAPAKSEHHNGNVSGLHHNGKSELRIAEKLLKVTAEKSVGLISAEAKVDKS  397
+            PLLLAAWRHGAPAKSEHHNGNVSGLHHNGKSELRIAEKLLKVTAEKSVGLISAEAKVDKS
+Sbjct  61   PLLLAAWRHGAPAKSEHHNGNVSGLHHNGKSELRIAEKLLKVTAEKSVGLISAEAKVDKS  120
+
+Query  398  AALLSSKNRPLESVSGKKLSADLKAVESVSEVTDNATGISDDNIKALPGDNKAIAGEGVR  457
+            AALLSSKNRPLESVSGKKLSADLKAVESVSEVTDNATGISDDNIKALPGDNKAIAGEGVR
+Sbjct  121  AALLSSKNRPLESVSGKKLSADLKAVESVSEVTDNATGISDDNIKALPGDNKAIAGEGVR  180
+
+Query  458  KEGAPLARDVAPARMAAANTGKPEDKDHKKVKDVSQLPLQPTTIADLSQLTGGDEKMPLA  517
+            KEGAPLARDVAPARMAAANTGKPEDKDHKKVKDVSQLPLQPTTIADLSQLTGGDEKMPLA
+Sbjct  181  KEGAPLARDVAPARMAAANTGKPEDKDHKKVKDVSQLPLQPTTIADLSQLTGGDEKMPLA  240
+
+Query  518  AQSKPMMTIFPTADGVKGEDSSLTYRFQRWGNDYSVNIQARQAGEFSLIPSNTQVEHRLH  577
+            AQSKPMMTIFPTADGVKGEDSSLTYRFQRWGNDYSVNIQARQAGEFSLIPSNTQVEHRLH
+Sbjct  241  AQSKPMMTIFPTADGVKGEDSSLTYRFQRWGNDYSVNIQARQAGEFSLIPSNTQVEHRLH  300
+
+Query  578  DQWQNGNPQRWHLTRDDQQNPQQQQHRQQSGEEDDA  613
+            DQWQNGNPQRWHLTRDDQQNPQQQQHRQQSGEEDDA
+Sbjct  301  DQWQNGNPQRWHLTRDDQQNPQQQQHRQQSGEEDDA  336
+
+
+>ref|WP_001626424.1| Invasion protein InvJ [Salmonella enterica]
+ gb|EHC53263.1| Invasion protein InvJ [Salmonella enterica subsp. enterica serovar 
+Inverness str. R8-3668]
+ gb|ESG97249.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Inverness str. ATCC 10720]
+ gb|ESH39455.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Braenderup str. ATCC BAA-664]
+ gb|ESJ48808.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar London str. CFSAN001081]
+ gb|ESJ74742.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Litchfield str. CFSAN001076]
+ gb|ESJ83741.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Braenderup str. CFSAN000756]
+Length=336
+
+ Score =   702 bits (1811),  Expect = 0.0, Method: Composition-based stats.
+ Identities = 334/336 (99%), Positives = 335/336 (99%), Gaps = 0/336 (0%)
+
+Query  278  MGDVSAVSSSGNILLPQQDEVGGLSEALKKAVEKHKTEYSGDKKDRDYGDAFVMHKETAL  337
+            MGDVSAVSSSGNILLPQQDEVGGLSEALKKAVEKHKTEYSGDKKDRDYGDAFVMHKETAL
+Sbjct  1    MGDVSAVSSSGNILLPQQDEVGGLSEALKKAVEKHKTEYSGDKKDRDYGDAFVMHKETAL  60
+
+Query  338  PLLLAAWRHGAPAKSEHHNGNVSGLHHNGKSELRIAEKLLKVTAEKSVGLISAEAKVDKS  397
+            P+LLAAWRHGAPAKSEHHNGNVSGLHHNGK ELRIAEKLLKVTAEKSVGLISAEAKVDKS
+Sbjct  61   PVLLAAWRHGAPAKSEHHNGNVSGLHHNGKGELRIAEKLLKVTAEKSVGLISAEAKVDKS  120
+
+Query  398  AALLSSKNRPLESVSGKKLSADLKAVESVSEVTDNATGISDDNIKALPGDNKAIAGEGVR  457
+            AALLSSKNRPLESVSGKKLSADLKAVESVSEVTDNATGISDDNIKALPGDNKAIAGEGVR
+Sbjct  121  AALLSSKNRPLESVSGKKLSADLKAVESVSEVTDNATGISDDNIKALPGDNKAIAGEGVR  180
+
+Query  458  KEGAPLARDVAPARMAAANTGKPEDKDHKKVKDVSQLPLQPTTIADLSQLTGGDEKMPLA  517
+            KEGAPLARDVAPARMAAANTGKPEDKDHKKVKDVSQLPLQPTTIADLSQLTGGDEKMPLA
+Sbjct  181  KEGAPLARDVAPARMAAANTGKPEDKDHKKVKDVSQLPLQPTTIADLSQLTGGDEKMPLA  240
+
+Query  518  AQSKPMMTIFPTADGVKGEDSSLTYRFQRWGNDYSVNIQARQAGEFSLIPSNTQVEHRLH  577
+            AQSKPMMTIFPTADGVKGEDSSLTYRFQRWGNDYSVNIQARQAGEFSLIPSNTQVEHRLH
+Sbjct  241  AQSKPMMTIFPTADGVKGEDSSLTYRFQRWGNDYSVNIQARQAGEFSLIPSNTQVEHRLH  300
+
+Query  578  DQWQNGNPQRWHLTRDDQQNPQQQQHRQQSGEEDDA  613
+            DQWQNGNPQRWHLTRDDQQNPQQQQHRQQSGEEDDA
+Sbjct  301  DQWQNGNPQRWHLTRDDQQNPQQQQHRQQSGEEDDA  336
+
+
+>ref|YP_008307493.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Bareilly str. CFSAN000189]
+ ref|WP_000503108.1| antigen presentation protein SpaN [Salmonella enterica]
+ gb|EDX51576.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Newport str. SL317]
+ gb|EIW99381.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Newport str. Levine 15]
+ gb|EIX01248.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Newport str. Levine 1]
+ gb|EIZ87587.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Newport str. CVM 21539]
+ gb|EIZ99462.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Newport str. CVM 35199]
+ gb|EJA00102.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Newport str. CVM 35185]
+ gb|EJA08274.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Newport str. CVM 33953]
+ gb|EJA08991.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Newport str. CVM 35188]
+ gb|EJA12998.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Newport str. CVM 21559]
+ gb|EJA40367.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Newport str. CVM 35202]
+ gb|AGQ58193.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Bareilly str. CFSAN000189]
+ gb|ERO04895.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Newport str. #11-4]
+ gb|ERO12220.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Newport str. #11-3]
+ gb|ERO19127.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Newport str. #11-2]
+ gb|ESH42868.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Bareilly str. ATCC 9115]
+ gb|ESH54739.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Bareilly str. CFSAN000200]
+ gb|ESH66176.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Bareilly str. CFSAN000189]
+ gb|ESH78101.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Bareilly str. CFSAN000183]
+ gb|ESJ79386.1| antigen presentation protein SpaN [Salmonella enterica subsp. 
+enterica serovar Hartford str. CFSAN001075]
+Length=336
+
+ Score =   699 bits (1804),  Expect = 0.0, Method: Composition-based stats.
+ Identities = 332/336 (99%), Positives = 334/336 (99%), Gaps = 0/336 (0%)
+
+Query  278  MGDVSAVSSSGNILLPQQDEVGGLSEALKKAVEKHKTEYSGDKKDRDYGDAFVMHKETAL  337
+            MGDVSAVSSSGNILLPQQDEVGGLSEALKKAVEKHKTEYSGDKKDRDYGDAFVMHKETAL
+Sbjct  1    MGDVSAVSSSGNILLPQQDEVGGLSEALKKAVEKHKTEYSGDKKDRDYGDAFVMHKETAL  60
+
+Query  338  PLLLAAWRHGAPAKSEHHNGNVSGLHHNGKSELRIAEKLLKVTAEKSVGLISAEAKVDKS  397
+            P+LLAAWRHGAPAKSEHHNGNVSGLHHNGK ELRIAEKLLKVTAEKSVGLIS EAKVDKS
+Sbjct  61   PVLLAAWRHGAPAKSEHHNGNVSGLHHNGKGELRIAEKLLKVTAEKSVGLISTEAKVDKS  120
+
+Query  398  AALLSSKNRPLESVSGKKLSADLKAVESVSEVTDNATGISDDNIKALPGDNKAIAGEGVR  457
+            AALLSSKNRPLESVSGKKLSADLKAVESVSEVTDNATGISDDNIKALPGDNKAIAGEGVR
+Sbjct  121  AALLSSKNRPLESVSGKKLSADLKAVESVSEVTDNATGISDDNIKALPGDNKAIAGEGVR  180
+
+Query  458  KEGAPLARDVAPARMAAANTGKPEDKDHKKVKDVSQLPLQPTTIADLSQLTGGDEKMPLA  517
+            KEGAPLARDVAPARMAAANTGKP+DKDHKKVKDVSQLPLQPTTIADLSQLTGGDEKMPLA
+Sbjct  181  KEGAPLARDVAPARMAAANTGKPDDKDHKKVKDVSQLPLQPTTIADLSQLTGGDEKMPLA  240
+
+Query  518  AQSKPMMTIFPTADGVKGEDSSLTYRFQRWGNDYSVNIQARQAGEFSLIPSNTQVEHRLH  577
+            AQSKPMMTIFPTADGVKGEDSSLTYRFQRWGNDYSVNIQARQAGEFSLIPSNTQVEHRLH
+Sbjct  241  AQSKPMMTIFPTADGVKGEDSSLTYRFQRWGNDYSVNIQARQAGEFSLIPSNTQVEHRLH  300
+
+Query  578  DQWQNGNPQRWHLTRDDQQNPQQQQHRQQSGEEDDA  613
+            DQWQNGNPQRWHLTRDDQQNPQQQQHRQQSGEEDDA
+Sbjct  301  DQWQNGNPQRWHLTRDDQQNPQQQQHRQQSGEEDDA  336
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Feb 10, 2014  10:13 AM
+  Number of letters in database: 12,976,293,536
+  Number of sequences in database:  36,706,364
+
+Lambda      K        H
+   0.323    0.136    0.422 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 36706364
+Number of Hits to DB: 3595019378
+Number of extensions: 155491068
+Number of successful extensions: 428759
+Number of sequences better than 100: 2293
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 425613
+Number of HSP's successfully gapped: 2365
+Length of query: 2896
+Length of database: 12976293536
+Length adjustment: 164
+Effective length of query: 2732
+Effective length of database: 6956449840
+Effective search space: 19005020962880
+Effective search space used: 19005020962880
+T: 11
+A: 40
+X1: 16 (7.5 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.4 bits)
+S2: 86 (37.7 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
+
+

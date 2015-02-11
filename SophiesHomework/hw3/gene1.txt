@@ -1,0 +1,93 @@
+BLASTP 2.2.29+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: FSNPP53M015
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           36,706,364 sequences; 12,976,293,536 total letters
+Query= 
+Length=2075
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+ref|WP_016225597.1|  ATP-dependent DNA helicase RecG [Lachnosp...  42.4    3.8  
+
+ALIGNMENTS
+>ref|WP_016225597.1| ATP-dependent DNA helicase RecG [Lachnospiraceae bacterium 3-2]
+ gb|EOS69330.1| ATP-dependent DNA helicase RecG [Lachnospiraceae bacterium 3-2]
+Length=676
+
+ Score = 42.4 bits (98),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 30/95 (32%), Positives = 47/95 (49%), Gaps = 7/95 (7%)
+
+Query  1955  LSRRQCHVSQSTRITGHGIDKKHDPFSLVAKIFRYGCRQLRRIAAIDRGEIGSGKNQHAF  2014
+              SRR+ HV  ST +   GID  +    ++    R+G  QL ++    RG +G GK+Q   
+Sbjct  526   FSRRESHVLVSTTVIEVGIDVPNATVMMIENAERFGLAQLHQL----RGRVGRGKHQSYC  581
+
+Query  2015  FFLMRS-AQHIHEFSDLTASFTD--KTDNKDIRLR  2046
+              F+  S A+   E  ++     D  K  ++D+RLR
+Sbjct  582   IFMSGSKAKETRERLEILNKTNDGFKIASEDLRLR  616
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Feb 10, 2014  10:13 AM
+  Number of letters in database: 12,976,293,536
+  Number of sequences in database:  36,706,364
+
+Lambda      K        H
+   0.324    0.134    0.407 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 36706364
+Number of Hits to DB: 2488965155
+Number of extensions: 102714391
+Number of successful extensions: 309283
+Number of sequences better than 100: 100
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 308978
+Number of HSP's successfully gapped: 127
+Length of query: 2075
+Length of database: 12976293536
+Length adjustment: 162
+Effective length of query: 1913
+Effective length of database: 7029862568
+Effective search space: 13448127092584
+Effective search space used: 13448127092584
+T: 11
+A: 40
+X1: 15 (7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (20.0 bits)
+S2: 85 (37.4 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
+
+

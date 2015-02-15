@@ -9,11 +9,13 @@ I think having a few print statements to show what licks is would be helpful
 Clarify that the first element of tuple changes the note, the second element changes the length of the note
 5. Doing modular math while adding notes avoids indexing errors. Could let them figure that out though
 Could clarify that they could do it in one line with modular math
+6. Importing "choice" from numpy generates errors when I try to run lick = choice(licks). Importing choice from random fixes the issue
 """
 
 from Nsound import *
 import numpy as np
-from numpy.random import choice, rand, random_sample
+from numpy.random import rand, random_sample
+from random import choice
 
 def add_note(out, instr, key_num, duration, bpm, volume):
     """ Adds a note from the given instrument to the specified stream
@@ -35,7 +37,7 @@ sampling_rate = 44100.0
 Wavefile.setDefaults(sampling_rate, 16)
 
 bass = GuitarBass(sampling_rate)	# use a guitar bass as the instrument
-solo = AudioStream(sampling_rate, 1)[(1,0.5), (1,0.5), (1, 0.5), (1, 0.5)]
+solo = AudioStream(sampling_rate, 1)
 
 """ these are the piano key numbers for a 3 octave blues scale in A
 	See: http://en.wikipedia.org/wiki/Blues_scale """
@@ -46,12 +48,13 @@ curr_note = 0
 add_note(solo, bass, blues_scale[curr_note], 1.0, beats_per_minute, 1.0)
 
 licks = [ [(1,0.3), (2,0.7), (1, 0.4), (-2, 0.6)], [(0,0.5), (2,0.5), (-4, 0.5), (1, 0.5)], [(3,0.4), (-2,0.7), (-1, 0.6), (1, 0.3)] ]
+
 #first element of tuple determines the note, the second element determins the length of the note
 swing = True
-for i in range(4): #we're running the lick 4 times, this range simply repeats the code 4 times
+for i in range(9): #we're running the lick 4 times, this range simply repeats the code 4 times
     lick = choice(licks)
     for note in lick:
-        curr_note += note[0] % (len(blues_scale)-1) #we're moving up a single note
+        curr_note = (curr_note + note[0]) % (len(blues_scale)-1) #we're moving up a single note
         if swing:
             length = 1.1
             swing = False
@@ -60,6 +63,8 @@ for i in range(4): #we're running the lick 4 times, this range simply repeats th
             swing = True
         note_length = note[1]*length
         add_note(solo, bass, blues_scale[curr_note], note_length, beats_per_minute, 1.0)
+
+solo >> "blues_solo.wav"
 
 backing_track = AudioStream(sampling_rate, 1)
 Wavefile.read('backing.wav', backing_track)

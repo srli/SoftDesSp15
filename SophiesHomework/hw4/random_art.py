@@ -94,6 +94,9 @@ def create_image():
             pixels[x,y] = (int(red_map),int(green_map),int(blue_map))
     img.show()
 
+
+
+
 if __name__ == "__main__":
     print 'Builds random functions', build_random_function(2,5)
     print ' '

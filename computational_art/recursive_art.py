@@ -101,7 +101,7 @@ def generate_art(filename, x_size=350, y_size=350):
     """
     # Functions for red, green, and blue channels - where the magic happens!
 
-    red_function =  build_random_function(2,6)
+    red_function =  build_random_function(2,20)
     blue_function = build_random_function(2,4)
     green_function = build_random_function(2,5)
 

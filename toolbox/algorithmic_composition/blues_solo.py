@@ -14,7 +14,10 @@ Could clarify that they could do it in one line with modular math
 
 from Nsound import *
 import numpy as np
+<<<<<<< HEAD
 from numpy.random import rand, random_sample
+=======
+>>>>>>> 68b2965c9c5fa90bd2433f3b7f672e6b29c1bbbb
 from random import choice
 
 def add_note(out, instr, key_num, duration, bpm, volume):
